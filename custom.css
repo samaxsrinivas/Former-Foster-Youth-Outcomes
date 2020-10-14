@@ -63,6 +63,10 @@ h1 {
     font-weight: 400;
 }
 
+.note {
+    font-size: 14px;
+}
+
 hr {
     width: 40vw;
 }
