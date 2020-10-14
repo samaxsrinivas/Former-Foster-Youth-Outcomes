@@ -14,7 +14,7 @@
 
 .heading {
     width: 100vw;
-    height: 200px;
+    height: 175px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,14 +29,26 @@ h1 {
 }
 
 .author {
-    padding-top: 20px;
+    padding-top: 10px;
     /* padding-bottom: 20px; */
     font-size: 20px;
 }
 
+.outline {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 40px;
+    z-index: 4;
+    align-self: flex-start;
+    background-color: #1f78b4;
+    order: 1;
+}
+
 .flourish-embed {
-    z-index: 1;
-    width: 75vw;
+    width: 70vw;
 }
 
 .article {
@@ -45,6 +57,10 @@ h1 {
     padding-bottom: 100px;
     font-size: 20px;
     z-index: 1;
+}
+
+.comment {
+    font-weight: 400;
 }
 
 hr {
@@ -67,4 +83,8 @@ h4 {
 
 hr {
     border: 1px solid black;
+}
+
+.github {
+    color: #1f78b4;
 }
