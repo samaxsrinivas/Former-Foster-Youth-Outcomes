@@ -72,6 +72,10 @@ a {
     color: #a1a1a1;
 }
 
+.flourish {
+    color: 000000;
+}
+
 p {
     font-weight: 300;
 }
@@ -91,8 +95,4 @@ hr {
 
 .sign {
     font-weight: 400;
-}
-
-.flourish {
-    color: 000000;
 }
